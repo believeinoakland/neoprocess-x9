@@ -1,0 +1,23 @@
+{
+  "not_product": [
+    "build/",
+    "requirements/",
+    ".claude/",
+    ".github/",
+    "CLAUDE.md",
+    "README.md"
+  ],
+  "modules": [
+    {
+      "id": "greet",
+      "layer": 1,
+      "paths": [
+        "greet/src/"
+      ],
+      "tests": [
+        "greet/test/"
+      ],
+      "uses": []
+    }
+  ]
+}
